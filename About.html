@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1">
+<title>About</title>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<link rel="stylesheet" href="Main.css">
+<link rel="stylesheet" href="About.css">
+
+<script src="AboutScript.js"></script>
+</head>
+<body onload="init()">
+
+	<div class="header" id="header">
+	<div id="header-left">
+			<img id="logo" src="BCC.png">
+			</div>
+			
+			<div id="header-links" style="text-align: center; margin: 0 auto;">
+			<a id="Home" href="index.html" class="fade" >Home</a>
+			<a id="About" class="current"  style="background-color: #23306e; color: white;">About</a>
+			<a id="Classes" href="Classes.html" class="fade" >Classes</a>
+			</div>
+		
+		<div id="header-right">
+		<a id="contact" href="Contact.html" class="fade"> Contact</a>
+		
+		</div>
+		</div>
+
+			
+		<div id="title" class="canvas">
+			<canvas id="homeCanvas"></canvas>
+		</div>
+<div id="text7">
+	<div class="text" id="full">
+		<div class="spanned run">
+
+					<div id="spanL">
+						<div id="spanLTitle" class="lBlue">
+							<h1> Overview </h1>
+						</div>
+						
+						<p>We offer 4 levels of classes designed to help based on both their level of programming skills and their age though anyone can take any class they wish. Each class is 2-3 hours long, during this time you will be taught by 3-4 qualified individuals helping you each set of the way. The class environment is designed to help you be comfortable and collaborative with the other people in the room, allowing you to learn and socialize with others. </p>
+					</div>
+					
+					<div id="spanR">
+						
+					
+						<div id="CycleTitle" class="lBlue">
+							<h1> Our Classes </h1>
+						</div>
+					
+						<div id="CycleIMGBox" >
+								<p class="active" id="button0T">
+									Our <a href="Classes.html#ftJUmp">First-Timers </a>class is designed for children between the ages of 6-12 and utilizes block code to help teach children the fundamentals of programming logic.
+								</p>
+								
+								<p class="wait" id="button1T">
+									The <a href="Classes.html#hkJUmp">Hiking </a> class is designed for children aged 10-14, this class begins to introduce written code along with block code to help show the connection between the two. 
+								</p>
+								
+								<p class="wait" id="button2T">
+									Our  <a href="Classes.html#clJUmp">Climbing</a> class is recommended for all ages 13+ and is the first class to be exclusively written code. In this class, we teach the basics of website design and use javascript to interact with the page!
+								</p>
+								
+								<p class="wait" id="button3T">
+									The  <a href="Classes.html#soJUmp">Soaring <a/>class is also recommended for ages 13+ with an interest in the more logical side of programming. The class will teach you to create algorithms to solve problems in a group setting.
+								</p>
+						</div>
+			
+						<div id="CycleSelect"  class="Cycle">
+						
+							<button id="button0" class="a active" onclick="hideAll(this)"> </button>
+							<button id="button1" class="a wait" onclick="hideAll(this)"> </button>
+							<button id="button2" class="a wait" onclick="hideAll(this)"> </button>
+							<button id="button3" class="a wait" onclick="hideAll(this)"> </button>
+
+						</div>
+					
+					</div>
+		
+	</div>
+
+	<div class="text" id="halfs">
+		<h1 class="Fadein"> Benefits of our classes</h1>
+		<div id="left" class="Fadein">  
+		
+				<div class="card Fadein">
+							<div class="lBlue" style="border-color: #3E559A;">
+								<h2> Groups </h2>
+							</div>
+									<p> All of our classes are within a group environment, creating opportunities for collaboration and interaction. You will be able to work with the people around you to solve problems, making for a more productive and enjoyable lesson.</p>	
+				</div>
+				
+				<img src="C1.jpg" alt="cChildren in need?" width="95%" height="auto" class="Fadein">
+				
+				<div class="card Fadein">
+							<div class="lBlue" style="border-color: #1E733E;">
+								<h2> Environment </h2>
+							</div>
+									<p> Our classes offer high-quality computers, chairs, and desks to ensure that you are in a comfortable environment. Air-conditioning and heating are supplied to allow for classes to run year-round as well. Along with our seating arrangement, designed to maximize interaction between students, our classes create a perfect environment for growth.</p>	
+				</div>
+				
+				<img src="C1.jpg" alt="cChildren in need?" width="95%" height="auto" class="Fadein">
+		
+		</div>
+		
+			<div id="right">
+				
+						<img src="C1.jpg" alt="cChildren in need?" width="95%" height="auto" class="Fadein">
+				
+						<div class="card Fadein" style="margin-left:-30px;">
+							<div class="lBlue" style="border-color: #1E7363;">
+								<h2> Instructors </h2>
+							</div>
+										<p> Each class has multiple instructors to make sure each student feels welcomed in our classes. All certified and well-practiced, they will be able to help students 1 on 1 to ensure all students master the lessons taught in a stress-free manner. </p>
+						</div>
+						
+						
+						<img src="C1.jpg" alt="cChildren in need?" width="95%" height="auto" class="Fadein">
+						
+						<div class="card Fadein" style="margin-left:-30px;">
+							<div class="lBlue" style="border-color: #7EE081;">
+								<h2> Opportunity for growth </h2>
+							</div>
+										<p>Our classes are designed to help our students grow their problem-solving abilities and to teach them the art of programming. Each class builds on the other and offers resources to those interested in learning outside of class. This formula allows for students to grow their skills over time, even if they only take one class. </p>
+						</div>
+				
+			
+			</div>
+</div>
+
+
+
+</div>
+<footer id="footer">
+<div id="fWrap" class="foot">
+	<div id="f1" class="link">
+		<a href="index.html">Home</a>
+	</div>
+	
+	<div id="f1" class="link">
+		<a href="About.html">About</a>
+	</div>
+	
+	<div id="f1" class="link">
+		<a href="Classes.html">Classes</a>
+	</div>
+	
+	<div id="f1" class="link">
+		<a href="Contact.html">Contact</a>
+	</div>
+	
+	<div id="f1" class="link">
+		<a href="copyright.html">Copyrights</a>
+	</div>
+</footer>
+
+</div>
+
+
+</body>
+</html>
