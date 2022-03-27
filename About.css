@@ -1,0 +1,53 @@
+button.a {
+	border-radius: 100%;
+	background-color: #d6d6d;
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: none;
+	cursor: pointer;
+	transition: 0.5s;
+	 position: relative;
+}
+
+#spanLTitle{
+	width: 60%;
+}
+
+
+#button1 {
+	
+}
+
+
+
+#CycleIMGBox{
+	width: 95%;
+	margin: 2%;
+	height: 60%;
+}
+
+#CycleTitle{
+	width:50%;
+	border-width: 2px;
+}
+
+#CycleSelect{
+	text-align: center;
+}
+button.wait:hover{
+	background-color: #b8e3ff;
+}
+
+button.active {
+	background-color: #3E559A;
+	cursor: default;
+}
+
+p.active{
+display: block;
+}
+
+p.wait {
+	display: none;
+}
