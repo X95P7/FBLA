@@ -268,19 +268,19 @@ so.addEventListener("mouseenter",brChangeSO,false);
 }
 
 function brChangeFL(){	
-	BR.style.backgroundImage = "url('i1.jpeg')";
+	BR.style.backgroundImage = "url('H.jpg')";
 }
 
 function brChangeHK(){
-	BR.style.backgroundImage = "url('i2.jpeg')";
+	BR.style.backgroundImage = "url('GR.jpg')";
 }
 
 function brChangeCL(){
-	BR.style.backgroundImage = "url('i3.jpeg')";
+	BR.style.backgroundImage = "url('X.jpg')";
 }
 
 function brChangeSO(){
-	BR.style.backgroundImage = "url('i4.jpeg')";
+	BR.style.backgroundImage = "url('AD.jpg')";
 }
 
 

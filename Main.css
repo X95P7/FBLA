@@ -24,6 +24,29 @@ color: black;
 }
 
 
+@media screen and (max-width: 670px) {
+ #logo {
+    margin: 50% 0px;
+	height: 50%;
+	width: auto;
+	box-shadow: 0px 0px 0px #ffffff;
+	transition: 0s;
+}
+}
+
+@media screen and (min-width: 671px) {
+	#logo{
+	transition: 0s;
+	margin: 0px;
+	box-shadow: 0px 0px 0px #ffffff;
+	height: 100%;
+	width: auto; 
+}
+}
+
+
+
+
 a{
 	text-decoration:none;
 }
@@ -73,13 +96,7 @@ text-align: center;
 	height: 100%;
 }
 
-#logo{
-		transition: 0s;
-	margin: 0px;
-	box-shadow: 0px 0px 0px #ffffff;
-	height: 100%;
-	width: auto; 
-}
+
 
 
 
