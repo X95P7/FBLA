@@ -4,8 +4,8 @@ button.a {
 	display: inline-block;
 	margin-left: 5%;
 	margin-right: 5%;
-	padding:0px;
 	border: none;
+	padding: 0px;
 	cursor: pointer;
 	transition: 0.5s;
 	 position: relative;
