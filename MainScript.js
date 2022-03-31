@@ -36,6 +36,14 @@ function resizeCanvas(){
 	//document.getElementById("title").style.padding = margins;
 	
 	
+	if(windowPXLength < 670){
+	    var elements = document.querySelectorAll('.Fadein');
+	       for(var i =0; i < elements.length; i++){
+	            elements[i].classList.add('run');
+                elements[i].classList.remove('Fadein');
+	       }
+	}
+	
 	console.log(windowPXHeight , windowPXLength, margins);
 
 }
